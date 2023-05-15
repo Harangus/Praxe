@@ -1,0 +1,114 @@
+$font: "Times New Roman', Times, serif";
+$white: #FFFFFF;
+$brightBlue: #00ABE4;
+$lightBlue: #E9F1FA;
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: $font;
+}
+
+body
+{
+    min-width: 272px;
+}
+
+.header
+{
+    background-color: $lightBlue;
+
+    &__title
+    {
+        font-size: 3rem;
+    }
+
+    &__searchbar
+    {
+        border-radius: 5px;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.navbar
+{
+    &__ul
+    {
+        background-color: $brightBlue;
+    }
+
+    &__li
+    {
+        list-style-type: none;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    &__item
+    {
+        color: black;
+        text-decoration: none;
+    }
+}
+
+
+.products
+{
+    &__image
+    {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
+
+    &__name
+    {
+        text-align: center;;
+    }
+    &__info
+    {
+        margin-top: 0.2rem;
+        text-align: justify;
+        background-color: $white;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
+
+    &__product
+    {
+
+        padding: 1rem;
+        border-radius: 20px;
+        margin-bottom: 1rem;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
+
+    &__name
+    {
+        font-size: 3rem;
+    }
+
+    &__background
+    {
+        margin: 2rem;
+        background-color: $lightBlue;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
+}
