@@ -1,0 +1,117 @@
+$font: "Times New Roman', Times, serif";
+$white: #FFFFFF;
+$brightBlue: #00ABE4;
+$lightBlue: #E9F1FA;
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: $font;
+}
+
+body
+{
+    min-width: 272px;
+    background-image: url("https://img.freepik.com/free-vector/abstract-geometric-wireframe-background_52683-59421.jpg?w=996&t=st=1684177155~exp=1684177755~hmac=c42d85d8ca0888e428d9dcbeb40f4268fe64dcd91855a39ba873d2f256d33f2f");
+}
+
+.header
+{
+    background-color: $lightBlue;
+
+    &__title
+    {
+        font-size: 3rem;
+    }
+
+    &__searchbar
+    {
+        border-radius: 5px;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.navbar
+{
+    &__ul
+    {
+        background-color: $brightBlue;
+    }
+
+    &__li
+    {
+        list-style-type: none;
+        text-align: center;
+        font-size: 1.5rem;
+        border-left: 2px solid $white;
+    }
+
+    &__li:hover
+    {
+        cursor: pointer;
+        background-color: $white;
+        transition: 250ms;
+    }
+
+    &__item
+    {
+        color: black;
+        text-decoration: none;
+    }
+}
+
+
+.products
+{
+    &__image
+    {
+        max-width:100%;
+        max-height: 100%;
+        border-radius: 20px;
+    }
+
+    &__name
+    {
+        margin-top: 1rem;
+        text-align: center;
+        background-color: $lightBlue;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    &__info
+    {
+        text-align: justify;
+        background-color: $white;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    &__product
+    {
+        padding: 2rem;
+        border-radius: 20px;
+        margin-bottom: 1rem;
+    }
+
+    &__product:hover
+    {
+        padding: 1rem;
+        background-color: $brightBlue;
+        transition: 250ms;
+    }
+
+    &__name
+    {
+        font-size: 3rem;
+    }
+
+    &__background
+    {
+        margin: 2rem;
+       // background-color: $lightBlue;
+        border-radius: 20px;
+    }
+}
