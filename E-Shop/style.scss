@@ -1,4 +1,4 @@
-$font: "Times New Roman', Times, serif";
+$font: 'Kanit', sans-serif;
 $white: #FFFFFF;
 $brightBlue: #00ABE4;
 $lightBlue: #E9F1FA;
@@ -13,7 +13,7 @@ $lightBlue: #E9F1FA;
 
 body
 {
-    min-width: 272px;
+    min-width: 500px;
     background-image: url("https://img.freepik.com/free-vector/abstract-geometric-wireframe-background_52683-59421.jpg?w=996&t=st=1684177155~exp=1684177755~hmac=c42d85d8ca0888e428d9dcbeb40f4268fe64dcd91855a39ba873d2f256d33f2f");
 }
 
@@ -113,5 +113,29 @@ body
         margin: 2rem;
        // background-color: $lightBlue;
         border-radius: 20px;
+    }
+}
+
+.buttons
+{
+    background-color: $lightBlue;
+    border-radius: 20px;
+
+    &__button
+    {
+        text-align: center;
+        background-color: $brightBlue;
+        min-height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        font-size: 1.5rem;
+    }
+
+    &__button:hover
+    {
+        background-color: $lightBlue;
+        transition: 250ms;
     }
 }

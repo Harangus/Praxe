@@ -2,11 +2,11 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Times New Roman', Times, serif";
+  font-family: "Kanit", sans-serif;
 }
 
 body {
-  min-width: 272px;
+  min-width: 500px;
   background-image: url("https://img.freepik.com/free-vector/abstract-geometric-wireframe-background_52683-59421.jpg?w=996&t=st=1684177155~exp=1684177755~hmac=c42d85d8ca0888e428d9dcbeb40f4268fe64dcd91855a39ba873d2f256d33f2f");
 }
 
@@ -75,4 +75,23 @@ body {
 .products__background {
   margin: 2rem;
   border-radius: 20px;
+}
+
+.buttons {
+  background-color: #E9F1FA;
+  border-radius: 20px;
+}
+.buttons__button {
+  text-align: center;
+  background-color: #00ABE4;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 1.5rem;
+}
+.buttons__button:hover {
+  background-color: #E9F1FA;
+  transition: 250ms;
 }/*# sourceMappingURL=style.css.map */
