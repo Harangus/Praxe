@@ -11,7 +11,9 @@ function Product(props)
                     <div className="col-md-12 product__name"><h1 class="product__name">{nazev}</h1></div>
                 </div>
                 <div className="row">
-                    <div className="col-md-12 product__info"><text class="product__description">{popis}</text></div>
+                    <div className="col-md-12 product__info">
+                        <text class="product__description">{popis}</text>
+                    </div>
                 </div>
         </div>
     );
