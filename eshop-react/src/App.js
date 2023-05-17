@@ -10,7 +10,7 @@ function App() {
     <div>
       <Header content="ElektroShop"/>
       <Navbar />
-      <ProductRow />
+      <ProductRow nazevA="Samsung galaxy S20" nazevB="iPhone 12 mini" nazevC="Nothing phone"/>
       <ProductRow />
       <ProductRow />
     </div>
