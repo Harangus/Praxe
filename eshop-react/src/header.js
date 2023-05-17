@@ -2,11 +2,12 @@ import "./scss/header.scss";
 
 function Header(props)
 {
+    const {content = "Nadpis"} = props;
     return(
         <div className="container-fluid">
             <div className="row header">
                 <div className="col-sm-6 header__firstColumn">
-                    <h1 className="header__title">{props.content}</h1>
+                    <h1 className="header__title">{content}</h1>
                     <span className="material-symbols-outlined header__icon"> laptop_windows</span>
                 </div>
 

@@ -10,7 +10,7 @@ function App() {
   const [produktA, setProduktA] = useState(["Nokia 3310", "Nejvíc legendární mobilní telefon, na kterém můžete hrát snakea"]);
   const [produktB, setProduktB] = useState(["iPhone 12 mini", "Velmi malý a výkoný telefon, který ohromí svým výkonem, ale baterií zas tak ne"]);
   const [produktC, setProduktC] = useState(["Nothing Phone", "První telefon od nové firmy Nothing, Elnur si ho celkem chválí"]);
-  
+
   return (
     <div>
       <Header content="ElektroShop"/>
