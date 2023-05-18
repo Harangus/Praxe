@@ -1,0 +1,61 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+.product
+{
+    padding: 2rem;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    display: flex;
+    min-width: 200px;
+    flex-direction: column;
+    text-align: center;
+
+    &__image
+    {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 20px;
+    }
+
+    &__name
+    {
+        margin-top: 0.5rem;
+        text-align: center;
+        background-color: $primary;
+        color: $white;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        font-size:large;
+        font-weight: bold;
+    }
+
+    &__info
+    {
+        text-align: justify;
+        background-color: $white;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    &__moreInfo
+    {
+        text-align: center;
+        background-color: $primary;
+        border-radius: 20px;
+        margin-top: 2rem;
+        font-size: large;
+    }
+
+    &:hover
+    {
+        background-color: $primary;
+        transition: 250ms;
+        cursor: pointer;
+    }
+
+    &:hover &__name
+    {
+        background-color: $gray-200;
+        color: $black;
+    }
+}
