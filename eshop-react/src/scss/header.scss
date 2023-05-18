@@ -1,0 +1,43 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+.header
+{
+    background-color: $light;
+
+    &__title
+    {
+        font-size: 3rem;
+    }
+
+    &__searchbar
+    {
+        border-radius: 5px;
+        height: 100%;
+        width: 100%;
+    }
+
+    &__firstColumn
+    {
+        display:flex; 
+        align-items: center;
+    }
+
+    &__secondColumn
+    {
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+    }
+
+    &__thirdColumn
+    {
+        display: flex; 
+        justify-content: space-evenly; 
+        align-items: center;
+    }
+
+    &__icon
+    {
+        font-size: 2rem;
+    }
+}
