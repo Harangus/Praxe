@@ -21,7 +21,8 @@
     {
         margin-top: 0.5rem;
         text-align: center;
-        background-color: $gray-200;
+        background-color: $primary;
+        color: $white;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         font-size:large;
@@ -47,8 +48,14 @@
 
     &:hover
     {
-        padding: 1rem;
         background-color: $primary;
         transition: 250ms;
+        cursor: pointer;
+    }
+
+    &:hover &__name
+    {
+        background-color: $gray-200;
+        color: $black;
     }
 }

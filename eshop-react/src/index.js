@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './scss/custom.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './scss/index.scss';
-import './scss/custom.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

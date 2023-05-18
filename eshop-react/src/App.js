@@ -5,6 +5,7 @@ import './scss/index.scss';
 import Header from "./header"
 import Navbar from './navbar';
 import ProductRow from './productsRow';
+import Navigation from "./navigation"
 
 function App() {
   const [produktA, setProduktA] = useState(["Nokia 3310", "Nejvíc legendární mobilní telefon, na kterém můžete hrát snakea"]);
@@ -18,6 +19,7 @@ function App() {
       <ProductRow nazevA={produktA[0]} popisA={produktA[1]} nazevB={produktB[0]} popisB={produktB[1]} nazevC={produktC[0]} popisC={produktC[1]}/>
       <ProductRow />
       <ProductRow />
+      <Navigation />
     </div>
   );
 }
